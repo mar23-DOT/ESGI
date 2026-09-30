@@ -1,0 +1,76 @@
+Algo 2 : Trouver le plus grand nombre parmi deux 
+ 
+Variable nb1, nb2 : Nombre 
+Début 
+Afficher "Votre premier nombre ?" 
+ Lire nb1 
+     Afficher "Votre deuxième nombre ?" 
+ Lire nb2 
+     Si nb1 > nb2 Alors   
+           Afficher "Le premier nombre est le plus grand"
+     Sinon 
+           Afficher "Le deuxième nombre est le plus grand"
+     FinSi 
+Fin 
+
+
+
+
+Algo 5 : Compter le nombre d’aiguilles dans une meule de foin 
+ 
+Tableau meule_de_foin[15] : Nombre 
+Variable taille_tableau, i, aiguille, compteur : Nombre 
+Début 
+     notes <- [2,9,5,7,1,4,5,6,8,8,2,1,4,7,9] 
+    taille_tableau <- 15
+    compteur <- 0 
+    Afficher "Choisissez le nombre aiguille" 
+     Lire aiguille 
+ 
+    Pour i allant de 0 à (taille_tableau - 1)
+          Si meule_de_foin[i] = aiguille Alors  
+               compteur <- compteur + 1
+          FinSi 
+     FinPour 
+ 
+Fin 
+
+
+Afficher "Votre Mot ?" 
+Lire mot 
+Compteur <- 0 
+Pour i allant de 1 à Longueur(mot) Faire 
+lettre <- mot[i] 
+Si lettre = 'a' OU lettre = 'e' OU lettre = 'i' OU lettre = 'o' OU lettre = 'u' Alors 
+compteur <- compteur +1 
+FinSi 
+FinPour 
+Afficher compteur 
+
+
+
+Variable i : Nombre 
+Début 
+ Afficher "Clignotant activé" 
+ Pour i allant de 1 à 20 Faire 
+  Si i % 2 = 0 Alors 
+   Afficher "ON" 
+  Sinon 
+   Afficher "OFF" 
+  FinSi 
+ FinPour
+Fin 
+
+Variable mot : Chaîne 
+Variable i, j : Nombre 
+Début 
+Fin 
+Afficher "Entrez un mot :" 
+Lire mot 
+Pour i allant de 1 à Longueur(mot) Faire 
+j <- 1 
+TantQue j <= i Faire 
+Afficher mot[j] 
+ j <- j + 1
+FinTantQue  
+FinPour 

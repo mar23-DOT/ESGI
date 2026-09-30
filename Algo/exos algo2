@@ -1,0 +1,13 @@
+Variable nb, i, resultat : Nombre
+
+Début
+
+Afficher "Entrez un nombre"
+Lire nb
+
+Pour i allant de 1 à 100 Faire
+resultat <- i * nb
+Afficher i, " x ", nb, " = ", resultat
+FinPour
+
+Fin

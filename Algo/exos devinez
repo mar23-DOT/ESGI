@@ -1,0 +1,51 @@
+Variable nombre, resultat : Nombre
+
+Début
+
+    Afficher "Entrez un nombre"
+    Lire nombre
+
+Si nombre % 2 = 0 Alors
+resultat <- nombre * 2
+Sinon
+resultat <- nombre
+FinSi
+
+Afficher resultat
+
+Fin
+
+exo 3
+Variable nombre : Nombre
+
+Début
+
+Afficher "Entrez un nombre"
+Lire nombre
+
+Si nombre % 3 = 0 Alors
+    Afficher "Oui"
+Sinon
+    Afficher "Non"
+FinSi
+
+Fin
+
+Variable a, b, c : Nombre
+ 
+Début
+    afficher "rentrez a"
+    Lire a
+      afficher "rentrez b"
+    Lire b
+    afficher "rentrez c"
+    Lire c
+ 
+    Si a > b ET a > c Alors
+        Afficher a
+    Sinon Si b > c Alors
+        Afficher b
+    Sinon
+        Afficher c
+    FinSi
+Fin

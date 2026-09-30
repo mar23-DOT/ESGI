@@ -1,0 +1,18 @@
+@font-face {
+font-family: "Blacksword";
+src: url("fonts/ma-fonte-regular.woff2") format("woff2"),
+}
+
+    @font-face {
+font-family: "Cardo";
+src: url("fonts/ma-fonte-regular.woff2") format("woff2"),
+}
+
+.root {
+    flex-direction: column;
+    width: 100%;
+    height: 140px;
+    background-image: url("./bunting.png");
+    background-size: auto 140px;
+    background-repeat: repeat-x;
+}

@@ -1,0 +1,30 @@
+
+Variable Trololo : chaine
+Debut
+    Répéter 14 fois
+     Afficher "Trololo"
+    FinRépéter
+Fin
+
+Variable nb : nombre
+Debut
+    Aficher "choisis un nombre"
+
+
+
+ Variable iterateur : nombre
+ iterateur <- 0
+ Debut
+    Afficher "Choisissez un nombre :"
+    Lire nombre
+
+Variable qte_valereurs : nombre
+
+Début 
+    afficher "combien de nombres souhaitez-vous saisir ?"
+        Lire qte_valereurs
+	Afficher " Entrez des nombres entiers "
+	Lire nb1
+	Afficher "Vous avez saisie à l'envers :", nb3 , nb2
+
+
